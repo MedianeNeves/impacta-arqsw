@@ -1,0 +1,30 @@
+7.1) - Diagrama de contexto,Módulo ou visualização de camada, Visualização e exibição de componentes e conector, Visualização de implantação
+
+7.2) De hardware 
+
+7.3) Os Riscos são : 
+1) Sobrecarga em produtos COTS específicos. Aqui citamos as dificuldades em trocar o banco de dados, remover o mecanismo de regras e confiar em uma versão antiga e possivelmente não suportada da camada de portabilidade do banco de dados. Esse tema de risco ameaçou o driver comercial de um sistema que é sustentável.
+
+2) Os processos de recuperação de erros não foram totalmente definidos. O conhecimento do cliente sobre as ferramentas disponíveis estava incompleto. Vários cenários trataram de descobrir erros no banco de dados e apoiá-los. Enquanto a arquitetura apoiava esses procedimentos com bastante precisão, ficou claro que os arquitetos e designers pensavam em alguns deles pela primeira vez. Os representantes do cliente kickoff informaram que não tinham procedimentos no local (por conta própria ou herdados da organização em desenvolvimento) para fazer tais correções de erros. Este tema de risco ameaçou o motorista de usabilidade e suporte para a empresa do cliente.
+
+3) Problemas de documentação. O estado da documentação sobre o projeto Nightingale foi inadequado. A equipe começou a perceber isso até a primeira fase da reunião, e vários cenários analisados durante a fase 2 reforçaram essa opinião. Embora existisse um grande volume de documentação detalhada (como a produzida via UML e o modelo Rose), quase não havia documentação introdutória ou de visão geral da arquitetura, que é crítica para o treinamento, adicionando pessoas ao projeto, manutenção e desenvolvimento orientador e testes. A extensa base de regras que governava o comportamento de Nightingale era indocumentada, assim como o processo de conversão e migração de dados. À falta de tal documentação, o sistema não seria mantido pelo cliente inicial, que estava prestes a herdar isso,
+
+
+7.4) SÃO ELES : 1, 2, 3, 4, 8
+
+7.5) TI Operacional, pois existe uma grande dificuldade na atualização de novas ferramentas do mercado
+
+negocio 
+ - Estado (maquina de estado ) ativo e desativado 
+Caso de uso
+ - Caso de uso principal
+
+Mapa de navegação
+
+Design 
+--Decisoes
+- Organização de camadas 
+-a simulação não utilizara multiplas threads
+-Organização em módulos java
+--Camadas
+- realização dos casos de uso 
